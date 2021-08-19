@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Voyage;
+    src: url("../fonts/made_bon_voyage/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf");
+}
+@font-face {
+    font-family: Corporate;
+     src: url("../fonts/BillCorporate/bill\ corporate\ narrow\ W00\ bold.ttf");
+}
+@font-face {
+    font-family: CorporateLight;
+     src: url("../fonts/BillCorporate/bill\ corporate\ narrow\ W00\ light.ttf");
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+nav a {
+    /* border-bottom: solid 1px black; */
+    color: #3B2313 !important;
+}
+.side-button {
+    display: flex;
+    padding: 10px;
+}
+.side-button img {
+    width: auto;
+}
+.side-button div{
+    padding-top:5px ;
+    margin-left: 10px;
+}
+.side-button h6 {
+    font-family:Corporate ;
+}
+.side-button h2 {
+    font-family: Voyage;
+}
+.hero-section {
+    padding-top: 100px;
+    background-image: url("../images/hero-background.png");
+    background-position: center;
+    background-size: cover; /*  WIDE BANAAAO BG IMAGE */
+    background-repeat: no-repeat;
+}
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .container img {
+    width: 70%;
+}
+.hero-section .container div {
+    padding: 20px;
+
+}
+
+.hero-section h1 {
+    font-family: Voyage;
+    font-size: 800%;
+    color:#3B2313;
+    text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
+}
+
+.hero-section h3 {
+    font-family: Corporate;
+    color:#3B2313 ;
+}
+.hero-section h3 span {
+    letter-spacing: -5px;
+}
+.order-btn {                              /* HOVER EFFECTS DAALOOO */
+    background-color: #3B2313 ;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 60px;
+    font-family: Corporate;
+    letter-spacing: 5px;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.about-section {
+    padding-top: 50px;
+    text-align: center;
+    background-image: url("../images/About-Pattern.png");
+}
+.about-section h5 {
+    color: #3B2313;
+    font-family: Corporate;
+}
+.about-section h5 span {
+    letter-spacing: -5px;
+    margin-right: 10px;
+}
+.about-section h1{
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 500%;
+}
+.about-section p {
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 250%;
+}
+/* .about-section button {
+    margin-bottom: 50px;
+} */
+/* .banner1-section {
+    background-image: url("../images/Banner-1.png");
+} */
+
+.products-section {
+    text-align: center;
+    padding-top:100px ;
+}
+.products-section h5 {
+    color: #3B2313;
+    font-family: Corporate;
+}
+.products-section h5 span {
+    letter-spacing: -5px;
+    margin-right: 10px;
+}
+.products-section h1{
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 500%;
+}
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.owl1 .card {
+    border:none;
+}
+.owl1 .card-body * {
+    padding-bottom: 10px;
+}
+.owl1 .card-body h2 {
+    font-family: Voyage;
+    font-size: 300%;
+}
+.owl1 .card-body h4 {
+    color: #F38921;
+    font-family: Corporate;
+}
+.owl-carousel {
+    position: relative;
+}
+.owl-carousel .owl-nav {
+    position: absolute;
+    z-index: -2;
+    top:25%;
+    left:-11%;
+    width:120%;
+}
+.owl-carousel .owl-prev {
+    float: left;
+}
+.owl-carousel .owl-next {
+    float: right;
+}
+.owl-carousel .owl-next span, .owl-carousel .owl-prev span {
+    color: black;
+    font-size: 60px;
+    font-family: CoporateLight;
+    /* background-color: gray;
+    padding: 10px 20px;
+    border-radius: 50%; */
+    align-items: center;
+}
+.banner2-section .banner2-div {
+    position: relative;
+}
+.banner2-section .container-div {
+    position: absolute;
+    left: 20%;
+    top:30%;
+    align-items: center;
+}
+.banner2-section .container-div h5 {
+    color: #3B2313;
+    font-family: Corporate;
+}
+.banner2-section .container-div h5 span {
+    letter-spacing: -5px;
+}
+.banner2-section .container-div h1 {
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 700%;
+}
+.banner2-section .container-div button {
+    margin-top: 30px;
+}
+
+.testimonial-section {
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px !important;
+}
+.testimonial-section h5 {
+    color: #3B2313;
+    font-family: Corporate;
+}
+.testimonial-section h5 span {
+    letter-spacing: -5px;
+    margin-right: 10px;
+}
+.testimonial-section h1{
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 500%;
+}
+.owl2 p {
+    font-family: CorporateLight;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    text-overflow: ellipsis !important;
+    overflow: hidden; 
+    /* width: 160px;  */
+    height: 9rem; 
+}
+.owl2 h6 {
+    font-family: CorporateLight;
+}
+.owl2 .card {
+    border:none;
+    /* box-shadow: #00000050 1px 5px 10px; */
+
+}
+.owl2 .owl-item {
+    box-shadow: #00000020 1px 1px 10px;
+}
+.owl2 {
+    margin-bottom: 100px;
+}
+.newsletter-section {
+    position: relative;
+}
+.newsletter-section .container {
+    position: absolute;
+    top:30%;
+    left:15%;
+    text-align: center;
+}
+.newsletter-section .container h5 {
+    color: #3B2313;
+    font-family: Corporate;
+}
+.newsletter-section .container h1 {
+    color: #3B2313;
+    font-family: Voyage;
+    font-size: 700%;
+}
+.newsletter-section .container input {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    border-bottom: black solid 1px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+}
+.newsletter-section .container input::placeholder {
+    color: black;
+    font-family: CorporateLight;
+}
+
+.newsletter-section .container button {
+    margin-left: -60px;
+}
+/* .newsletter-section .container input:focus {
+    border: none !important;
+    border-bottom: black solid 1px;
+} */
+
+
+.footer {
+    background-color: #000000 !important;
+    padding: 100px 0px;
+    color: white;
+    font-size: larger;
+}
+.footer a {
+    color: white;
+    font-family: CorporateLight;
+    text-decoration: none;
+}
+.footer ul li b {
+    font-family: Corporate;
+    padding-bottom: 20px;
+}
+.footer ul li {
+    padding-bottom: 15px;
+}
+.footer p {
+    text-align: center;
+}
+
+.clean-block {
+    padding-bottom: 0px !important;
+}
+.footer .col-3 {
+    border-right: rgba(255, 255, 255, 0.25) solid 1px ;
+    padding-left: 50px;
+}
+.footer .last {
+    border-right: none;
+}

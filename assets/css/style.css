@@ -32,8 +32,8 @@ nav .container {
     padding: 10px;
 }
 .side-button img {
-    width: auto;
-    height: auto;
+    width: 70px;
+    height: 70px;
 }
 .side-button div{
     padding-top:5px ;
@@ -61,7 +61,7 @@ nav .container {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 125px;
+    top: 20%;
     left: 15%;
 }
 
@@ -96,6 +96,11 @@ nav .container {
     letter-spacing: 5px;
     font-size: large;
     margin-bottom: 50px;
+}
+.order-btn:hover {
+    color: #3B2313;
+    background-color: white;
+    border-color: #3B2313;
 }
 
 .about-section {
@@ -187,6 +192,9 @@ nav .container {
     border-radius: 50%; */
     align-items: center;
 }
+.owl-carousel .owl-next span:hover, .owl-carousel .owl-prev span:hover {
+    background-color: white;
+} 
 .banner2-section .banner2-div {
     position: relative;
 }

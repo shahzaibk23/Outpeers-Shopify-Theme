@@ -62,11 +62,12 @@ nav .container {
     align-items: center;
     position: absolute;
     top: 20%;
-    left: 15%;
+    left: 10%;
+    right:10%;
 }
 
 .hero-section .container img {
-    width: 70%;
+    width: 100%;
 }
 .hero-section .container div {
     padding: 20px;
@@ -75,7 +76,7 @@ nav .container {
 
 .hero-section h1 {
     font-family: Voyage;
-    font-size: 800%;
+    font-size: 1000%;
     color:#3B2313;
     text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
 }

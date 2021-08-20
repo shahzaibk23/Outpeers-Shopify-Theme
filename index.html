@@ -32,9 +32,18 @@
                         <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Shop</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item under-button">
+                            <div class="side-button">
+                                <img src="assets/images/Call-icon-nav..png" >
+                                <div>
+                                <h6> Call for Any Query! </h6>
+                                <h2> 0315 7005347 </h2>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div class="side-button">
+                <div class="side-button over-button">
                     <img src="assets/images/Call-icon-nav..png" >
                     <div>
                     <h6> Call for Any Query! </h6>
@@ -45,8 +54,8 @@
         </div>
     </nav>
     <main>
-        <div class="heh">
-            <img src="assets/images/hero-background.png" style="width: 100%;" />
+        <!-- <div class="heh"> -->
+            <img class="heh" src="assets/images/hero-background.png" style="width: 100%; height: 100%;" />
             <section class="clean-block hero-section">
                 
                 <div class="container">
@@ -62,7 +71,7 @@
                 </div>
 
             </section>
-        </div>
+        <!-- </div> -->
         <section class="clean-block about-section">
             <div class="container">
                 <h5><span>-------------</span> KNOW <span>-------------</span> </h5>
@@ -146,14 +155,16 @@
             <div class="banner2-div">
                 <img src="assets/images/Banner-2.png" width="100%" height="100%">
                 <div class="container-div">
-                        <div class="container">
+                    <div class="container">
                         <h5>OUR PRODUCTS ARE <span>-------</span></h5>
                         <h1>More Than</h1>
                         <h1>Just A</h1>
                         <h1>Wall Clock!</h1>
                         <button class="btn order-btn">MAKE YOUR WALL LAVISH NOW!</button>
                     </div>
+                    
                 </div>
+                <img class="bnr2" src="assets/images/banner-product.png"  >
             </div>
         </section>
         <section class="clean-block testimonial-section">
@@ -256,8 +267,8 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <img src="assets/images/Footer-Logo.png">
+                <div class="col-3 foot-logo">
+                    <img  src="assets/images/Footer-Logo.png">
                 </div>
                 <div class="col-3">
                     <ul class="list-unstyled">
@@ -301,15 +312,15 @@
             nav: true,
             loop: true,
             responsive: {
-              0: {
+              900: {
                 items: 1
               },
-              600: {
-                items: 2
-              },
-              1000: {
-                items: 3
-              }
+            //   800: {
+            //     items: 2
+            //   },
+            //   1000: {
+            //     items: 3
+            //   }
             }
           })
         })

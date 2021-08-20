@@ -10,6 +10,10 @@
     font-family: CorporateLight;
      src: url("../fonts/BillCorporate/bill\ corporate\ narrow\ W00\ light.ttf");
 }
+@font-face {
+    font-family: CorporateMedium;
+    src: url("../fonts/BillCorporate/bill\ corporate\ narrow\ W00medium.ttf");
+}
 
 .navbar-collapse{
     flex-grow: 0 !important;
@@ -17,6 +21,11 @@
 nav a {
     /* border-bottom: solid 1px black; */
     color: #3B2313 !important;
+    font-family: CorporateMedium;
+}
+nav .container {
+    border-bottom: #3b231321 solid 1px;
+
 }
 .side-button {
     display: flex;
@@ -24,6 +33,7 @@ nav a {
 }
 .side-button img {
     width: auto;
+    height: auto;
 }
 .side-button div{
     padding-top:5px ;
@@ -35,18 +45,26 @@ nav a {
 .side-button h2 {
     font-family: Voyage;
 }
+.heh {
+    position: relative;
+}
 .hero-section {
+    /* position: relative; */
     padding-top: 100px;
-    background-image: url("../images/hero-background.png");
+    /* background-image: url("../images/hero-background.png");
     background-position: center;
-    background-size: cover; /*  WIDE BANAAAO BG IMAGE */
-    background-repeat: no-repeat;
+    background-size: cover; /*  WIDE BANAAAO BG IMAGE
+    background-repeat: no-repeat; */
 }
 .hero-section .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top: 125px;
+    left: 15%;
 }
+
 .hero-section .container img {
     width: 70%;
 }

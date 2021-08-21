@@ -801,6 +801,9 @@ nav .container {
     .product-details-section .container div {
         width: 100%;
     }
+    .product-details-section .container div h1 {
+        font-size: 80px;
+    }
     
 }
 

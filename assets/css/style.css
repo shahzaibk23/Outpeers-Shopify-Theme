@@ -761,16 +761,17 @@ nav .container {
 .product-details-section .container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .product-details-section .container div h1 {
     font-family: Voyage;
-    font-size: 600%;
+    font-size: 500%;
     color: #3B2313;
     text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
 }
 .product-details-section .container div p {
     font-family: Voyage;
-    font-size: 150%;
+    font-size: 130%;
     color: #3B2313;
 }
 .product-details-section .container div .order-btn2 {
@@ -814,3 +815,51 @@ a {
 a:hover {
     color:#3B2313;
 }
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-align: center;
+    width: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width:3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+
+  }

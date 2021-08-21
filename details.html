@@ -66,6 +66,11 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         
                     </p>
+                    <div class="number-input">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
+                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+                    </div>
                     <button class="btn order-btn order-btn2" >ORDER NOW !</button>
                     <button class="btn order-btn">BUY IT NOW!</button>
                 </div>

@@ -59,7 +59,8 @@
                 <h1>About Us</h1>
             </div>
         </section>
-        <section class="clean-block about-section" >
+        <section class="clean-block about-section new-about">
+            
             <div class="container">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
@@ -163,6 +164,18 @@
             }
           })
         })
+    </script>
+    <script>
+        $(document).ready(function(){
+          $(window).scroll(function() { // check if scroll event happened
+            if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+              $(".navbar").css("background-color", "white"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+              $(".navbar .container").css("border", "none")
+            } else {
+              $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
+            }
+          });
+        });
     </script>
 </body>
 </html>

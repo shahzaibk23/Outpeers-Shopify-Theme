@@ -90,7 +90,8 @@ nav .container {
 
 
 .hero-section .container img {
-    width: 100%;
+    width: 120%;
+    height: 120%;
 }
 .hero-section .container div {
     padding: 20px;
@@ -99,7 +100,9 @@ nav .container {
 
 .hero-section h1 {
     font-family: Voyage;
-    font-size: 1000%;
+    font-size: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     color:#3B2313;
     text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
 }
@@ -179,11 +182,11 @@ nav .container {
     letter-spacing: 5px;
     font-size: large;
     margin-bottom: 50px;
+    margin-top: 0px;
 }
 .order-btn:hover {
-    color: #3B2313;
-    background-color: white;
-    border-color: #3B2313;
+    color: white;
+    background-color: #3B2313;
 }
 @media (max-width:930px) {
     .order-btn {
@@ -355,11 +358,17 @@ nav .container {
 .owl-carousel .owl-next span:hover, .owl-carousel .owl-prev span:hover {
     background-color: white;
 } 
-
+.owl1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 @media (max-width:770px) {
     .owl-carousel .owl-nav {
         display: none !important;
     }
+}
+.banner2-section {
+    margin-top: 70px;
 }
 .banner2-section .banner2-div {
     position: relative;
@@ -657,13 +666,19 @@ nav .container {
     font-family: Voyage;
     font-size: 500%;
     color: #3B2313;
-    text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;;
+    text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
 }
-
+.new-about {
+    background-image: url("../images/about-background-image.png");
+    background-position: bottom;
+    background-size:cover ;
+    margin-bottom: 0px;
+}
 /* -------------- contact ---------------------*/
 .contact-section {
     padding-top: 100px;
     text-align: center;
+    padding-bottom: 70px !important;
 }
 .contact-section .container h5 {
     color: #3B2313;
@@ -682,16 +697,21 @@ nav .container {
     display: flex;
     justify-content: space-evenly;
 }
+.icon-div img {
+    width: 70%;
+    padding-bottom: 30px;
+}
 .icon-div h3 {
-    font-family: CoporateBold;
+    font-family: Corporate;
+    padding-bottom: 5px;
 }
 .icon-div h6 {
     font-family: CorporateLight;
-    color: gray;
+    color: #000000;
 }
 .contact-form-section {
     padding-top: 100px;
-    background-color: rgb(204, 204, 204);
+    background-color: #f6f6f6;
     text-align: center;
 }
 .contact-form-section h5 {
@@ -730,4 +750,56 @@ nav .container {
     width: 60%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* ------------ details ---------------------*/
+
+.product-details-section {
+    padding-top: 250px;
+    padding-bottom: 100px  !important;
+}
+.product-details-section .container {
+    display: flex;
+    justify-content: center;
+}
+.product-details-section .container div h1 {
+    font-family: Voyage;
+    font-size: 600%;
+    color: #3B2313;
+    text-shadow: rgba(0, 0, 0, 0.192) 0px 4px 3px;
+}
+.product-details-section .container div p {
+    font-family: Voyage;
+    font-size: 150%;
+    color: #3B2313;
+}
+.product-details-section .container div .order-btn2 {
+    background-color: white;
+    color: #3B2313;
+    width: 100%;
+    border: #3B2313 solid 1px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+.product-details-section .container div .order-btn {
+    width: 100%;
+    padding:10px 30px;
+    margin-top: 0px;
+}
+.product-details-section img {
+    margin-right: 50px;
+}
+@media (max-width:700px) {
+
+    .product-details-section .container {
+        display: block;
+    }
+    .product-details-section img {
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    .product-details-section .container div {
+        width: 100%;
+    }
+    
 }

@@ -65,10 +65,12 @@
                 <h1>Contact Information</h1>
                 <div class="icon-div">
                     <div>
+                        <img src="assets/images/emailIcon.png" >
                         <h3>Email Us:</h3>
                         <h6>Support@outpeers.com</h6>
                     </div>
                     <div>
+                        <img src="assets/images/phoneIcon.png" >
                         <h3>Phone</h3>
                         <h6>0315 7005347</h6>
                     </div>
@@ -180,5 +182,17 @@
           })
         })
     </script>
+    <script>
+        $(document).ready(function(){
+          $(window).scroll(function() { // check if scroll event happened
+            if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+              $(".navbar").css("background-color", "white"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+              $(".navbar .container").css("border", "none")
+            } else {
+              $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
+            }
+          });
+        });
+    </script>
 </body>
-</html>
+</html> 

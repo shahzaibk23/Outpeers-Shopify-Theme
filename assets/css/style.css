@@ -803,3 +803,11 @@ nav .container {
     }
     
 }
+
+a {
+    text-decoration: none;
+    color:#3B2313;
+}
+a:hover {
+    color:#3B2313;
+}

@@ -134,6 +134,7 @@ nav .container {
     }
     .hero-section h1 {
         font-size: 800%;
+        line-height: 200px;
     }
     .hero-section .container img {
         width: 70%;
@@ -227,7 +228,7 @@ nav .container {
     }
     .hero-section {
         background-image: url("../images/hero-background.png");
-        background-position:right;
+        background-position:center;
         background-size: cover;
     }
     .hero-section div {
@@ -397,7 +398,7 @@ nav .container {
 .bnr2 {
     display: none;
 }
-@media (max-width: 1300px){
+@media (max-width: 1420px){
     .banner2-section h1 {
         font-size: 500% !important;
     }
@@ -673,6 +674,9 @@ nav .container {
     background-position: bottom;
     background-size:cover ;
     margin-bottom: 0px;
+}
+.new-about p {
+    width: 80%;
 }
 /* -------------- contact ---------------------*/
 .contact-section {

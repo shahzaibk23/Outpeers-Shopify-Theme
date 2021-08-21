@@ -160,7 +160,7 @@
                         <h1>More Than</h1>
                         <h1>Just A</h1>
                         <h1>Wall Clock!</h1>
-                        <button class="btn order-btn">MAKE YOUR WALL LAVISH NOW!</button>
+                        <button class="btn order-btn">MAKE YOUR WALL LAVISH!</button>
                     </div>
                     
                 </div>
@@ -186,10 +186,10 @@
                                             cabo nmo enim ipsam...”
                                              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui "
                                         </p>
-                                        <div class="d-flex" style="width: 100%;">
-                                            <img src="assets/images/Testimonials-1.png" style="width: 25%;">
+                                        <div class="d-flex align-items-center" style="width: 100%; padding-bottom: 0px;">
+                                            <img src="assets/images/Testimonials-1.png" style="width: 25%; height: 25%;">
                                             <div style="text-align:left;margin-left: 20px;align-items: center;padding-top: 20px;">
-                                                <h5>Sameer Ahmed</h5>
+                                                <h5 style="padding-bottom: 0px;">Sameer Ahmed</h5>
                                                 <h6>Financial Advisor</h6>
                                             </div>
                                         </div>
@@ -211,10 +211,10 @@
                                             cabo nmo enim ipsam...”
                                              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui "
                                         </p>
-                                        <div class="d-flex" style="width: 100%;">
-                                            <img src="assets/images/Testimonials-2.png" style="width: 25%;">
+                                        <div class="d-flex align-items-center" style="width: 100%; padding-bottom: 0px;">
+                                            <img src="assets/images/Testimonials-2.png" style="width: 25%; height: 25%;">
                                             <div style="text-align:left;margin-left: 20px;align-items: center;padding-top: 20px;">
-                                                <h5>Sameer Ahmed</h5>
+                                                <h5 style="padding-bottom: 0px;">Sameer Ahmed</h5>
                                                 <h6>Financial Advisor</h6>
                                             </div>
                                         </div>
@@ -236,10 +236,10 @@
                                             cabo nmo enim ipsam...”
                                              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui "
                                         </p>
-                                        <div class="d-flex" style="width: 100%;">
-                                            <img src="assets/images/Testimonials-3.png" style="width: 25%;">
+                                        <div class="d-flex align-items-center" style="width: 100%; padding-bottom: 0px;">
+                                            <img src="assets/images/Testimonials-3.png" style="width: 25%; height: 25%;">
                                             <div style="text-align:left;margin-left: 20px;align-items: center;padding-top: 20px;">
-                                                <h5>Sameer Ahmed</h5>
+                                                <h5 style="padding-bottom: 0px;">Sameer Ahmed</h5>
                                                 <h6>Financial Advisor</h6>
                                             </div>
                                         </div>
@@ -343,6 +343,20 @@
             }
           })
         })
+    </script>
+    10
+
+    <script>
+        $(document).ready(function(){
+          $(window).scroll(function() { // check if scroll event happened
+            if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+              $(".navbar").css("background-color", "white"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+              $(".navbar .container").css("border", "none")
+            } else {
+              $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
+            }
+          });
+        });
     </script>
 </body>
 </html>

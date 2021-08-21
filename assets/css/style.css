@@ -463,7 +463,7 @@ nav .container {
 .owl2 p {
     font-family: CorporateLight;
     color: rgba(0, 0, 0, 0.8);
-    text-align: justify;
+    text-align: left;
     text-overflow: ellipsis !important;
     overflow: hidden; 
     /* width: 160px;  */
@@ -477,11 +477,26 @@ nav .container {
     /* box-shadow: #00000050 1px 5px 10px; */
 
 }
-.owl2 .owl-item {
+/* .owl2 .owl-item {
+    background-color: #f6f6f6;
+} */
+.owl2 .item {
+    margin-right: 70px;
     box-shadow: #00000020 1px 1px 10px;
+    /* padding: 5px 10px */
+}
+.owl2 .card-body {
+    padding: 30px 30px;
+    padding-bottom: 10px;
+    background-color: #f6f6f6;
+}
+
+.testimonial-section {
+    background-color: white;
 }
 .owl2 {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-radius: 0px;
 }
 .newsletter-section {
     position: relative;
